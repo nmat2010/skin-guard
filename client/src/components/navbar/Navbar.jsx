@@ -39,6 +39,9 @@ const Navbar = () => {
             <div>
               <Link to='/help'><p>Help & Contact</p></Link>
             </div>
+            <div>
+              <Link to='/keep-track'><p>Keep Track</p></Link>
+            </div>
             {userData ? (
               <div className='profile'>
                 <Link to="/profile">
