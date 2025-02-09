@@ -1,0 +1,14 @@
+numpy
+pandas
+opencv-python
+tqdm
+scikit-learn
+matplotlib
+seaborn
+pillow
+ipython
+flask
+python-dotenv
+openai==0.28
+tensorflow-macos==2.15.0 #for intel user: tensorflow==2.15.0
+keras==2.15.0

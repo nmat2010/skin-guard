@@ -1,8 +1,9 @@
-# React + Vite
+# HackNYU Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Project Description: Use AI to help users detect skin diseases and implement a chatbot to give diagnoses and advice.
+- Tech Stack: React, NodeJS, ExpressJS, MongoDB
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  **To Do**
+  1. Finish UI and authentication
+  2. Develop back-end & user database
+  3. Integrate OpenAI API and machine learning model

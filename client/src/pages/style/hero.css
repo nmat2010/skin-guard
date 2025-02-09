@@ -1,0 +1,80 @@
+.hero {
+    font-family: 'Montserrat','Sans-serif';
+    scroll-behavior: smooth;
+    padding-bottom: 40px;
+}
+
+.hero-image {
+    background-image: url(/welcome.png);
+    background-size: cover;
+    height: 500px;
+}
+
+.product {
+    margin: auto;
+    background: rgba(252, 239, 204, 0.63);
+    height: 200px;
+    padding: 70px 0;
+}
+
+.product-name {
+    color: #0B5F80;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.animate-blink {
+    font-weight: 300;
+    color: black;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.description {
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.slogan {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.try {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0B5F80;
+    color: white;
+    width: 300px;
+    height: 100px;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.try:hover {
+    background-color: #083f54;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.gif {
+    margin-left: 170px;
+    margin-top: 50px;
+}

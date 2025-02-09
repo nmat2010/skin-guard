@@ -1,0 +1,148 @@
+.track-container {
+    text-align: center;
+    padding: 100px 20px 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .track-header {
+      margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 7px;
+    font-size: 30px;
+    color: #333;
+  }
+  
+  .create-track{
+    border-width: 1.5px;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-top: 0.45rem;
+    padding-bottom: 0.45rem;
+  }
+  
+  .track-list {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      padding: 10px;
+  }
+  
+  .track-item {
+    display: inline-block;
+    cursor: pointer;
+    /* position: relative; */
+  }
+  
+  .track-circle {
+      top: 0;  
+      left: 0;  
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+      padding-top: 0.625rem;
+      padding-bottom: 0.625rem;
+      border-width: 2px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #0B5F80;
+      background-color: white;
+      border-radius: 1rem;
+      letter-spacing: 0.125em;
+      animation: bounce 1s infinite;
+      z-index: 1;
+      position: relative;
+  }
+  
+  /* .track-circle.completed {
+    background-color: #0B5F80;
+    z-index: 7;
+  } */
+  
+  .track-item:hover .track-circle {
+    background-color: #0B5F80;
+  }
+  
+  .track-circle1{
+    top: 0;  
+    left: 0;  
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    bottom: -10px;
+    border-width: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0B5F80;
+    background-color: white;
+    border-radius: 1rem;
+    letter-spacing: 0.125em;
+    animation: bounce 1s infinite;
+    z-index: 1;
+    display: flex;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+    height: 85%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 20px;  
+  }
+  
+  .modal-content p {
+    margin-bottom: 15px; 
+  }
+  
+  .close-button{
+    top: 0;  
+    left: 0;  
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    bottom: -10px;
+    border-width: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0B5F80;
+    background-color: white;
+    border-radius: 0.25rem;
+    letter-spacing: 0.125em;
+    z-index: 1;
+    margin-top: 50px;
+  }
+  
+  .textarea{
+    width: 55%;
+    padding-top: 7px;
+    padding-left: 5px;
+    display: flex;
+    border-width: 1.5px;
+  }

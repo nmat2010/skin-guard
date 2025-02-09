@@ -1,0 +1,14 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0B5F80;
+    color: white;
+    text-align: center;
+    width: 100vw;
+    height: 40px;
+    bottom: 0;
+    position: fixed;
+    padding: 20px;
+    font-family: 'Montserrat','Sans-serif';
+}
