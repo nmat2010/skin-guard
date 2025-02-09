@@ -6,6 +6,7 @@ import Scan from './pages/Scan';
 import Chatbot from './pages/Chatbot';
 import Login from './pages/Login';
 import About from './pages/About';
+import KeepTrack from './pages/KeepTrack.jsx';
 import Help from './pages/Help';
 import Profile from './pages/Profile';
 import Footer from './components/footer/Footer';
@@ -26,6 +27,7 @@ const App = () => {
         <Route path='/ai-doctor' element={<Chatbot/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/about' element={<About/>}/>
+        <Route path='/keep-track' element={<KeepTrack/>}/>
         <Route path='/help' element={<Help/>}/>
         <Route path='/profile' element={<Profile/>}/>
         <Route path='/email-verify' element={<EmailVerify/>}/>
