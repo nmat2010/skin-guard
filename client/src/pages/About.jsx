@@ -9,7 +9,12 @@ const About = () => {
         <p1 className='about-product-name'>AI Dermatologist</p1>
       </div>
       <div className='product-description'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet esse possimus distinctio, quibusdam, recusandae a ad consequuntur accusantium, cum expedita itaque animi fugiat earum nesciunt dolorem aliquid sit modi ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quo quae consequatur rerum nisi velit doloremque sequi necessitatibus. Deleniti mollitia dicta autem ut vel nam quod sed numquam quisquam eum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae voluptas nam excepturi, corporis ratione nemo dignissimos illo! Eaque, quos a. Dolor aut vel quas ab labore quam, odio blanditiis sit.</p>
+        <h1 className='product-heading'>Inspiration</h1>
+        <p>Many people struggle with receiving timely dermatological care due to barriers such as high medical costs, limited availability of professionals, and time constraints. Skin-related conditions, if left untreated, can worsen over time, leading to severe complications. Inspired by this gap in accessibility, we set out to build an AI-powered solution that provides users with an instant and preliminary skin condition assessment using computer vision. Our goal is to empower individuals to take control of their skin health while making dermatological advice more accessible and efficient.</p>
+      </div>
+      <div className='product-description'>
+        <h1 className='product-heading'>What it does</h1>
+        <p><b>SkinGuard</b> is an AI-driven dermatologist assistant designed to help users analyze their skin conditions instantly. The platform allows users to upload pictures of their skin, which our AI model processes to predict possible conditions. Additionally, an AI-powered chatbot is available to provide explanations, suggest solutions, and answer related queries. To encourage continuous monitoring, <b>SkinGuard</b> also includes a skin tracker feature, allowing users to log and track changes over time for better long-term assessment and treatment.</p>
       </div>
       <div className='tech-stack'>
         <p className='tech-stack-title'>Tech Stack</p>
@@ -44,7 +49,7 @@ const About = () => {
            <p className='team-member'>Han Le</p>
           </a>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, temporibus! Quasi, delectus quae? Aliquid alias repudiandae nostrum ex velit! Fugit laboriosam provident reiciendis optio. Adipisci sint explicabo molestias vero libero!</p>
+        <p color='#486874'><b>"What's a Seawolf?" - "I'm a Seawolf!"</b></p>
       </div>
     </div>
   )

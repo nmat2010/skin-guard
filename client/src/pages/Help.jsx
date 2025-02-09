@@ -16,14 +16,14 @@ const Help = () => {
               <img src="/help-scan.png" className='help-img scan-img'/>
             </div>
             <div className='help-inner-right'>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni omnis porro deleniti. Tempora, tempore labore nulla natus voluptatum laboriosam cumque dignissimos asperiores esse eius ullam officiis ipsa quo quaerat. Rerum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nobis magni facere at, illum nisi reiciendis recusandae soluta esse maxime, repudiandae sunt doloremque voluptate. Minima nam ut beatae animi consectetur?</p>
+              <p>Users can upload pictures of their skin or take photos using the camera feature.<br></br><br></br>The scanner will process and analyze the uploaded images to prepare a skin condition assessment.<br></br><br></br>Users can upload additional images to refine the analysis.</p>
             </div>
           </div>
         </div>
         <div className='help-chatbot help-box'>
             <div className='help-inner'>
               <div className='help-inner-right'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni omnis porro deleniti. Tempora, tempore labore nulla natus voluptatum laboriosam cumque dignissimos asperiores esse eius ullam officiis ipsa quo quaerat. Rerum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis delectus ea maiores, porro non suscipit rem. Quos repellendus enim fugit. Alias maiores adipisci rerum nihil obcaecati eius minus iusto autem.</p>
+                <p>Provides a preliminary assessment of the user's skin condition based on the uploaded images.<br></br><br></br>Users can ask questions to receive AI-driven insights and explanations.<br></br><br></br>Offers suggestions for skin care, prevention, and basic treatment options.</p>
               </div>
               <div className='help-inner-left'>
                 <p className='help-subtitle ai-subtitle'>AI Doctor</p>
@@ -37,7 +37,11 @@ const Help = () => {
           </div>
           <div className='help-right'>
             <p className='contact-title'>Contacts</p>
-            <p className='contact-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos adipisci, a rerum magnam error aliquam porro impedit nihil minus unde eius sunt mollitia eligendi deleniti, corrupti et esse recusandae provident? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis earum saepe, ipsam laboriosam aut molestias dolor exercitationem amet numquam commodi tempora dignissimos enim dolorem quidem architecto debitis velit placeat incidunt?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error culpa accusantium quisquam necessitatibus eum repudiandae doloremque, nihil tempore quia exercitationem facere quos, odio maiores eligendi similique, assumenda id! Voluptas, beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequatur nisi architecto deleniti facere tenetur reprehenderit sit eveniet voluptate saepe labore iure perspiciatis expedita fugit necessitatibus, aut facilis aliquid doloribus?</p>
+            <p className='contact-text'><b>Contact 1:</b> (123) 456-789 | <b>Address:</b> 6 MetroTech Center</p>
+            <p className='contact-text'><b>Contact 2:</b> (123) 456-789 | <b>Address:</b> 6 MetroTech Center</p>
+            <p className='contact-text'><b>Contact 3:</b> (123) 456-789 | <b>Address:</b> 6 MetroTech Center</p>
+            <p className='contact-text'><b>Contact 4:</b> (123) 456-789 | <b>Address:</b> 6 MetroTech Center</p>
+            <p className='contact-text'><b>Contact 5:</b> (123) 456-789 | <b>Address:</b> 6 MetroTech Center</p>
           </div>
         </div>
       </div>

@@ -45,7 +45,7 @@
     margin-top: 20px;
     color: #486874;
     font-size: 35px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .help-box {
@@ -125,6 +125,10 @@
     color: #486874;
 }
 
+.contact-text {
+    padding: 3px;
+}
+
 .help-left {
     flex: 0.4;
 }
@@ -133,7 +137,7 @@
     flex: 0.6;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    text-align: center;
 }
 
 

@@ -22,10 +22,6 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <Link to="/" className='nav-logo'>
-      {/* <div className='nav-logo'>
-        {logo}
-        <p className='logo-name'>AI Dermatologist</p>
-      </div> */}
         <img src='/logo-border.png' className='logo-img'></img>
         <p className='logo-name'>SkinGuard - AI Dermatologist</p>
       </Link>

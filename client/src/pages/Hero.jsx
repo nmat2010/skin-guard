@@ -10,7 +10,7 @@ const Hero = () => {
 
   return (
     <div className='hero'>
-         <div className='hero-image'>
+        <div className='hero-image'>
             {userData ? (
               <div className='product'>
                 <p className='product-name'>Welcome, {userData.name}</p>
@@ -20,9 +20,12 @@ const Hero = () => {
                 <p className='product-name'>AI DERMATOLOGIST</p>
               </div>
             )}
+            <div className='gif'>
+             <img src='/Untitled_Artwork.gif' width="300px" height="300px"></img>
+            </div>
         </div>
         <div className='content'>
-                <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit asperiores quod ullam possimus magni earum aspernatur illo voluptates pariatur quas corporis illum obcaecati quo facilis, natus autem omnis qui nemo?</p>
+                <p className='description'><b>SkinGuard – The Care Your Skin Deserves</b>, an AI-powered platform that provides instant skin condition assessment and treatment guidance using advanced computer vision technology.</p>
                 {userData ? (
                   <div className='try'>
                     <Link to="/scan"><button>Scan Now</button></Link>
