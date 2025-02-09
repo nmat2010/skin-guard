@@ -3,7 +3,7 @@
 ## Project Overview
 We developed SkinGuard, a platform that leverages OpenAI and the Efficient-Net-B3 machine learning model to identify skin diseases, provide diagnoses, and assist users in protecting themselves from various skin conditions. Given the harsh weather conditions in many US states, we aim to increase awareness about health, specifically skin issues, while offering accessible skincare knowledge without the burden of high healthcare costs. We securely store user information and health records for future reference, including uploaded skin images and diagnoses.
 
-## Technology Stack
+## 🚀 Technology Stack
 
 ### Frontend:
 - React
