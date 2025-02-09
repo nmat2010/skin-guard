@@ -21,4 +21,8 @@ export const getUserData = async (req, res)=>{
     } catch (error) {
         res.json({success: false, message: error.message});
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> fe80a82875357af125c7a5618d9fb4004f49245b
