@@ -1,0 +1,133 @@
+.login-upper-container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/login-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat','Sans-serif';
+}
+
+.login-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-container {
+    background-color: white;
+    height: auto;
+    width: 40vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.login-content {
+    width: 80%;
+}
+
+.input-label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #0B5F80;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.login-button {
+    border-radius: 5px;
+    background-color: #0B5F80;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.login-button:hover {
+    background-color: #083f54;
+    cursor: pointer;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.google-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0B5F80;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease;
+    width: 300px;
+    height: 50px;
+}
+
+.google-icon {
+    margin-right: 15px; 
+    display: flex;
+    align-items: center;
+}
+
+.or-divider {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #666; /* Color for the "OR" text */
+}
+  
+.or-divider::before,
+.or-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: #ccc; /* Color for the divider lines */
+}
+  
+.or-text {
+    margin: 0 12px; /* Space around the "OR" text */
+}
+
+.forget-pass {
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.forget-pass:hover {
+    text-decoration: underline;
+    color: grey;
+}

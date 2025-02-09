@@ -1,0 +1,144 @@
+.help {
+    font-family: 'Montserrat','Sans-serif';
+    padding-bottom: 50px;
+}
+
+.help-upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 300px;
+    position: relative;
+    background-color: black;
+    z-index: -1;
+}
+
+.help-upper::before {
+    content: '';
+    background-image: url(/help-background.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    position: absolute;
+    inset: 0;
+}
+
+.help-title {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    isolation: isolate;
+    margin-top: 50px;
+}
+
+.help-lower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.help-guide {
+    text-align: center;
+    margin-top: 20px;
+    color: #486874;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.help-box {
+    background-color: #486874;
+    margin-top: 30px;
+    width: 70vw;
+    border-radius: 30px;
+    position: relative;
+}
+
+.help-chatbot {
+    margin-top: 50px;
+}
+
+.help-subtitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.help-inner {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    color: white;
+    gap: 30px;
+}
+
+.ai-subtitle {
+    right: 0;
+    margin-right: 30px;
+}
+
+.help-img {
+    width: 200px;
+    height: auto;
+}
+
+.ai-img {
+    transform: rotateY(180deg);
+}
+
+.help-inner-left {
+    flex: 0.4;
+}
+
+.help-inner-right {
+    flex: 0.6;
+}
+
+/* CONTACT SECTION */
+
+.contact-img {
+    width: 100%;
+    height: auto;
+}
+
+.contact {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.contact-title {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #486874;
+}
+
+.contact-text {
+    padding: 3px;
+}
+
+.help-left {
+    flex: 0.4;
+}
+
+.help-right {
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
