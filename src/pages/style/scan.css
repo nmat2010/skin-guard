@@ -1,0 +1,93 @@
+.scan-upper-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    font-family: 'Montserrat','Sans-serif';
+}
+
+.scan-container {
+    flex: 50%;
+    background-color: rgba(13, 55, 71, 0.74);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.scan-area {
+    border: 2px dashed white;
+    padding: 40px;
+    width: 40vw;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+
+.scan-element {
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.scan-icon {
+    margin-bottom: 10px;
+}
+
+.chatbot-container {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.chatbot-title {
+    color: #0B5F80;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.chatbot-msg {
+    margin-top: 30px;
+    background-color: #66828C;
+    width: 40vw;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    outline: none;
+    color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.chatbot-msg::placeholder {
+    color: white;
+    animation: blinking 1s steps(1, end) infinite;
+    animation: typing 4s steps(40, end);
+}
+
+@keyframes blinking {
+    0% {border-color: transparent;}
+    50% {border-color: white;}
+    100% {border-color: transparent;}
+}
+
+@keyframes typing {
+    0% {width: 0;}
+    100% {width: 100%}
+}
