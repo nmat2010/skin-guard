@@ -34,5 +34,7 @@ We developed SkinGuard, a platform that leverages OpenAI and the Efficient-Net-B
  - Diagnose and give advice
  - Machine Learning Model Training
  - Keep track of skincare routine
+
+Visit our [Devpost](https://devpost.com/software/skinguard-ai-dermatologist)
    
   
