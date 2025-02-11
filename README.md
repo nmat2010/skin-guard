@@ -37,7 +37,7 @@ We developed SkinGuard, a platform that leverages OpenAI and the Efficient-Net-B
 
 ## 🛠 Installation & Setup
 ### Prerequisites
-- Python 3.8+
+- Python 3.9+
 - Node.js 14+
 - conda
 - pip
@@ -54,9 +54,27 @@ cd skin-guard
 cd server
 open .env
 ```
-Place your OpenAI API key in:
+Place your OpenAI API key in 'YOUR API KEY':
 ```javascript
 OPENAI_SECRET = 'YOUR API KEY'
+```
+
+### Backend Setup and Run
+```javascript
+cd server
+conda create —name skinguard python=3.9
+pip install -r requirements.txt
+npm install
+npm run server
+```
+
+### Frontend Setup and Run
+```
+cd ..
+cd client
+cd src
+npm install
+npm run dev
 ```
 
 Visit our [Devpost](https://devpost.com/software/skinguard-ai-dermatologist)
