@@ -1,4 +1,4 @@
-# SKINGUARD -- AI-POWERED DERMATOLOGIST
+# SKINGUARD: AI-POWERED DERMATOLOGIST
 ### 🏆 HackNYU'25 Best First Hack Prize Winner 🏆
 Visit our [Devpost](https://devpost.com/software/skinguard-ai-dermatologist)
 
