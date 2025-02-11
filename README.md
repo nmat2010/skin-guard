@@ -77,6 +77,6 @@ npm install
 npm run dev
 ```
 
-Visit our [Devpost](https://devpost.com/software/skinguard-ai-dermatologist)
+### Visit our [Devpost](https://devpost.com/software/skinguard-ai-dermatologist)
    
   
