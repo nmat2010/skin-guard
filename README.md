@@ -35,6 +35,30 @@ We developed SkinGuard, a platform that leverages OpenAI and the Efficient-Net-B
  - Machine Learning Model Training
  - Keep track of skincare routine
 
+## 🛠 Installation & Setup
+### Prerequisites
+- Python 3.8+
+- Node.js 14+
+- conda
+- pip
+- git
+
+### Repository Clone
+```javascript
+git clone https://github.com/nmat2010/skin-guard.git
+cd skin-guard
+```
+
+### API Key Setup
+```javascript
+cd server
+open .env
+```
+Place your OpenAI API key in:
+```javascript
+OPENAI_SECRET = 'YOUR API KEY'
+```
+
 Visit our [Devpost](https://devpost.com/software/skinguard-ai-dermatologist)
    
   
